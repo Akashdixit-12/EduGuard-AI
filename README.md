@@ -16,7 +16,7 @@
 |---|---|
 | **Name** | AI vs Human Text |
 | **Source** | Kaggle |
-| **Link** | https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text |
+| **Link** | https://www.kaggle.com/datasets/shamimhasan8/ai-vs-human-text-dataset|
 | **Size** | ~40,000 samples |
 | **Labels** | `0` = Human Written, `1` = AI Generated |
 
@@ -122,4 +122,4 @@ Paste any text into the web app to get:
 ## Author
 
 Built for the **Education & Academic Integrity** challenge.  
-Dataset: https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text
+Dataset:https://www.kaggle.com/datasets/shamimhasan8/ai-vs-human-text-dataset
