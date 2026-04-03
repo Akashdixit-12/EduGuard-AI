@@ -1,16 +1,16 @@
-# 🎓 AI Content Detector — Academic Integrity Tool
+#  EduGuard — Academic Integrity Tool
 
 > Detect whether student-submitted text is **AI-generated** or **human-written** with **86–90% accuracy**.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 > *Despite the potential of Generative AI to personalize learning, current educational frameworks lack robust mechanisms to differentiate between AI-generated content and original student work, leading to a significant decline in academic integrity and the erosion of critical thinking skills.*
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 | Field | Details |
 |---|---|
@@ -22,20 +22,20 @@
 
 ---
 
-## 🚀 Results
+## Results
 
 | Metric | Value |
 |---|---|
-| **Test Accuracy** | ~87–89% ✅ |
+| **Test Accuracy** | ~87–89% |
 | **ROC-AUC Score** | ~0.95+ |
 | **5-Fold CV Accuracy** | ~87% ± 1% |
 | **Model** | TF-IDF (bigrams) + Logistic Regression |
 
-> ✅ Meets the required accuracy range of **86–90%**
+> Meets the required accuracy range of **86–90%**
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.10**
 - **Scikit-learn** — TF-IDF Vectorizer, Logistic Regression
@@ -49,8 +49,8 @@
 ## 📁 Project Structure
 
 ```
-ai_detector/
-├── AI_Content_Detector.ipynb   # Main notebook (EDA + Training + Evaluation)
+AI_detector/
+├── EduGuard.ipynb              # Main notebook (EDA + Training + Evaluation)
 ├── app.py                      # Flask web application
 ├── requirements.txt            # Python dependencies
 ├── model.pkl                   # Saved model (generated after running notebook)
@@ -60,29 +60,18 @@ ai_detector/
 
 ---
 
-## ⚡ Quick Start
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/YOUR_USERNAME/ai-content-detector.git
-cd ai-content-detector
-```
 
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download the dataset
+Download the dataset
 Download `AI_Human.csv` from [Kaggle](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text) and place it in the project folder.
 
-### 4. Run the Jupyter Notebook
+###  Run the Jupyter Notebook
 ```bash
 jupyter notebook AI_Content_Detector.ipynb
 ```
 Run all cells — this will train the model and save `model.pkl`.
 
-### 5. Launch the Web App
+### Launch the Web App
 ```bash
 python app.py
 ```
@@ -90,7 +79,7 @@ Open **http://localhost:5000** in your browser.
 
 ---
 
-## 📊 Output Visualizations
+## Output Visualizations
 
 The notebook generates the following plots saved as `.png` files:
 
@@ -105,7 +94,7 @@ The notebook generates the following plots saved as `.png` files:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Text Cleaning** — Lowercasing, URL removal, punctuation normalization
 2. **TF-IDF Vectorization** — Converts text to unigram+bigram feature matrix (50k features)
@@ -121,16 +110,16 @@ AI-generated text tends to have:
 
 ---
 
-## 🌐 Web App Demo
+##  Web App Demo
 
 Paste any text into the web app to get:
-- ✅ **Prediction Label** (Human / AI)
-- 📊 **Confidence Score**
-- 📈 **Human vs AI probability meter**
+-  **Prediction Label** (Human / AI)
+-  **Confidence Score**
+-  **Human vs AI probability meter**
 
 ---
 
-## 📝 Author
+## Author
 
 Built for the **Education & Academic Integrity** challenge.  
 Dataset: https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text
