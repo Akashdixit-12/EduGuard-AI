@@ -63,7 +63,7 @@ AI_detector/
 
 
 Download the dataset
-Download `AI_Human.csv` from [Kaggle](https://www.kaggle.com/datasets/shanegerami/ai-vs-human-text) and place it in the project folder.
+Download `AI_Human.csv` from [Kaggle]:https://www.kaggle.com/datasets/shamimhasan8/ai-vs-human-text-dataset
 
 ###  Run the Jupyter Notebook
 ```bash
